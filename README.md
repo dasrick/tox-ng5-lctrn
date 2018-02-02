@@ -1,3 +1,12 @@
+[![github tag][github-tag-image]][github-tag-url]
+[![Build Status][travis-image]][travis-url]
+[![Dependency Status][david-image]][david-url]
+[![DevDependencies Status][david-dev-image]][david-dev-url]
+[![DependencyCI Status][dependencyci-image]][dependencyci-url]
+[![License][license-image]][license-url]
+
+***
+
 # ToxNg5Lctrn
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.6.
@@ -25,3 +34,22 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+***
+
+[github-tag-image]: https://img.shields.io/github/tag/dasrick/tox-ng5-lctrn.svg?style=flat-square
+[github-tag-url]: https://github.com/dasrick/tox-ng5-lctrn
+
+[travis-image]: https://img.shields.io/travis/dasrick/tox-ng5-lctrn.svg?style=flat-square
+[travis-url]: https://travis-ci.org/dasrick/tox-ng5-lctrn
+
+[david-image]: https://img.shields.io/david/dasrick/tox-ng5-lctrn.svg?style=flat-square
+[david-url]: https://david-dm.org/dasrick/tox-ng5-lctrn
+[david-dev-image]: https://img.shields.io/david/dev/dasrick/tox-ng5-lctrn.svg?style=flat-square
+[david-dev-url]: https://david-dm.org/dasrick/tox-ng5-lctrn?type=dev
+
+[dependencyci-image]: https://dependencyci.com/github/dasrick/tox-ng5-lctrn/badge
+[dependencyci-url]: https://dependencyci.com/github/dasrick/tox-ng5-lctrn
+
+[license-image]: https://img.shields.io/github/license/dasrick/tox-ng5-lctrn.svg?style=flat-square
+[license-url]: https://github.com/dasrick/tox-ng5-lctrn/blob/master/LICENSE
