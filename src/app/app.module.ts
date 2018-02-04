@@ -5,23 +5,19 @@ import { AppRoutingModule } from './app-routing.module';
 
 
 import { AppComponent } from './app.component';
-import { LayoutSimpleComponent } from './shared/components/layout-simple/layout-simple.component';
-import { LayoutAdminComponent } from './shared/components/layout-admin/layout-admin.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MaterialComponentsModule } from './material-components.module';
+import { SharedModule } from './shared/shared.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LayoutSimpleComponent,
-    LayoutAdminComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialComponentsModule
+    SharedModule
   ],
   providers: [{
     provide: LocationStrategy,

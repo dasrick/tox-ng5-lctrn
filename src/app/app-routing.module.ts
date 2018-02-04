@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 // Layouts
-import { LayoutAdminComponent } from './shared/components/layout-admin/layout-admin.component';
-import { LayoutSimpleComponent } from './shared/components/layout-simple/layout-simple.component';
+import { LayoutAdminComponent } from './shared/layout-admin/layout-admin.component';
+// import { LayoutSimpleComponent } from './shared/layout-simple/layout-simple.component';
 
 const routes: Routes = [
   {
