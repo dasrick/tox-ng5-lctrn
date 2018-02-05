@@ -72,21 +72,21 @@ export class SidenavService {
     const level5 = menu.addSubItem(level4, 'Level 5', '/level1/level2/level3/level4/level5', 5);
 
 
-    const dynamicMenuFunctionDemo = () => {
-      const dynamicFunction = () => {
-        const snackbarRef = snackbar.open('This menu item got added dynamically!', 'Remove item', <MatSnackBarConfig>{
-          duration: 5000
-        });
-
-        snackbarRef.onAction().subscribe(() => {
-          menu.removeItem(dynamicMenu);
-        });
-      };
-
-      const dynamicMenu = menu.addItem('Dynamic Menu Item', 'extension', dynamicFunction, 12);
-    };
-
-    const addMenu = menu.addItem('Add Menu Item', 'add', dynamicMenuFunctionDemo, 99, null, null, 'add-dynamic-menu');
+    // const dynamicMenuFunctionDemo = () => {
+    //   const dynamicFunction = () => {
+    //     const snackbarRef = snackbar.open('This menu item got added dynamically!', 'Remove item', <MatSnackBarConfig>{
+    //       duration: 5000
+    //     });
+    //
+    //     snackbarRef.onAction().subscribe(() => {
+    //       menu.removeItem(dynamicMenu);
+    //     });
+    //   };
+    //
+    //   const dynamicMenu = menu.addItem('Dynamic Menu Item', 'extension', dynamicFunction, 12);
+    // };
+    //
+    // const addMenu = menu.addItem('Add Menu Item', 'add', dynamicMenuFunctionDemo, 99, null, null, 'add-dynamic-menu');
   }
 
   addItem(name: string, icon: string, route: any, position: number, badge?: string, badgeColor?: string, customClass?: string) {
@@ -132,7 +132,7 @@ export class SidenavService {
   }
 
   isOpen(item: SidenavItem) {
-    return (this._currentlyOpen.indexOf(item) != -1);
+    return (this._currentlyOpen.indexOf(item) !== -1);
   }
 
   toggleCurrentlyOpen(item: SidenavItem) {

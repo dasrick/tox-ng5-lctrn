@@ -1,12 +1,10 @@
 <mat-sidenav-container class="admin-container">
 
   <mat-sidenav class="quickpanel" [opened]="quickpanelOpen" align="end" mode="over" #quickpanel>
-
-    <!--<ms-quickpanel></ms-quickpanel>-->
-
+    <tox-quickpanel></tox-quickpanel>
   </mat-sidenav>
 
-  <mat-sidenav class="sidenav" [opened]="sidenavOpen" align="start" [mode]="sidenavMode" msIconSidenav #sidenav>
+  <mat-sidenav class="sidenav" [opened]="sidenavOpen" align="start" [mode]="sidenavMode" toxIconSidenav #sidenav>
     <tox-sidenav></tox-sidenav>
   </mat-sidenav>
 

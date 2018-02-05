@@ -6,9 +6,12 @@ import { LayoutSimpleComponent } from './layout-simple/layout-simple.component';
 import { LayoutAdminComponent } from './layout-admin/layout-admin.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { SidenavItemComponent } from './sidenav-item/sidenav-item.component';
+import { BreadcrumbsComponent } from './breadcrumb/breadcrumb.component';
+import { QuickpanelComponent } from './quickpanel/quickpanel.component';
 
 // services
 import { SidenavService } from './sidenav/sidenav.service';
+import { MediaReplayService } from './sidenav/media-replay.service';
 import { BreadcrumbService } from './breadcrumb/breadcrumb.service';
 
 // modules
@@ -30,9 +33,12 @@ import { ScrollbarModule } from './scrollbar/scrollbar.module';
     LayoutAdminComponent,
     SidenavComponent,
     SidenavItemComponent,
+    BreadcrumbsComponent,
+    QuickpanelComponent,
   ],
   providers: [
     SidenavService,
+    MediaReplayService,
     BreadcrumbService,
   ]
 })

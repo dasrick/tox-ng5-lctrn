@@ -4,7 +4,7 @@ import { RouterTestingModule } from '@angular/router/testing';
 import { LayoutAdminComponent } from './layout-admin.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MaterialComponentsModule } from '../../../material-components.module';
+import { MaterialComponentsModule } from '../../material-components.module';
 
 
 describe('LayoutAdminComponent', () => {
