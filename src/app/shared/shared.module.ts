@@ -15,7 +15,7 @@ import { MediaReplayService } from './sidenav/media-replay.service';
 import { BreadcrumbService } from './breadcrumb/breadcrumb.service';
 
 // modules
-import { MaterialComponentsModule } from '../material-components.module';
+import { MaterialComponentsModule } from './material-components.module';
 import { RouterModule } from '@angular/router';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { ScrollbarModule } from './scrollbar/scrollbar.module';
